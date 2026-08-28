@@ -1,1 +1,46 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Financial Calculators | Neeraj Investments</title><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="container nav"><a class="brand" href="index.html"><span class="mark">N</span><span>NEERAJ <b>INVESTMENTS</b></span></a><nav><a href="index.html">Home</a><a href="mutual-fund.html">Mutual Fund</a><a href="other-products.html">Other Products</a><a href="financial-calculators.html">Calculators</a><a href="insurance.html">Insurance</a><a href="learn.html">Learn</a><a href="downloads.html">Downloads</a><a href="contact.html">Contact</a></nav></div></header><main class="section"><div class="container"><div class="eyebrow">PLANNING TOOLS</div><h1>Financial Calculators</h1><p style="color:#68778a;font-size:18px;max-width:700px">Use these illustrative tools to understand how savings, returns and time can affect your financial goals.</p><div class="calculator" style="max-width:600px;margin-top:40px"><h3>SIP Calculator</h3><label>Monthly investment<input id="m" type="number" value="10000"></label><label>Expected annual return (%)<input id="r" type="number" value="12" step=".1"></label><label>Period (years)<input id="y" type="number" value="10"></label><button class="btn full" onclick="go()">Calculate</button><div class="result"><small>Estimated future value</small><strong id="o">₹23.23 Lakh</strong></div></div><div class="cards" style="margin-top:45px"><article><h3>Retirement Planning</h3><p>Estimate the corpus you may need for your retirement goals.</p></article><article><h3>Education Planning</h3><p>Think through future education costs and savings requirements.</p></article><article><h3>Goal Planning</h3><p>Compare regular investing with your target amount and timeline.</p></article></div></div></main><footer><div class="container legal">Calculator results are illustrative only and should not be treated as investment advice.</div></footer><script>function go(){let m=+document.getElementById('m').value,r=(+document.getElementById('r').value)/1200,n=(+document.getElementById('y').value)*12,v=r?m*((Math.pow(1+r,n)-1)/r)*(1+r):m*n;document.getElementById('o').textContent='₹'+(v/100000).toLocaleString('en-IN',{maximumFractionDigits:2})+' Lakh'}</script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Financial Calculators | Neeraj Investments</title><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="container nav"><a class="brand" href="index.html"><span class="mark">N</span><span>NEERAJ <b>INVESTMENTS</b></span></a><nav><a href="index.html">Home</a><a href="mutual-fund.html">Mutual Fund</a><a href="other-products.html">Other Products</a><a href="financial-calculators.html">Calculators</a><a href="insurance.html">Insurance</a><a href="learn.html">Learn</a><a href="downloads.html">Downloads</a><a href="contact.html">Contact</a></nav></div></header><main class="section"><div class="container"><div class="eyebrow">PLANNING TOOLS</div><h1>Financial Calculators</h1><p style="color:#68778a;font-size:18px;max-width:700px">Use these illustrative tools to understand how savings, returns and time can affect your financial goals.</p><div class="calculator" style="max-width:600px;margin-top:40px"><h3>SIP Calculator</h3><label>Monthly investment<input id="m" type="number" value="10000"></label><label>Expected annual return (%)<input id="r" type="number" value="12" step=".1"></label><label>Period (years)<input id="y" type="number" value="10"></label><button class="btn full" onclick="go()">Calculate</button><div class="result"><small>Estimated future value</small><strong id="o">₹23.23 Lakh</strong></div></div><div class="cards" style="margin-top:45px"><article><h3>Retirement Planning</h3><p>Estimate the corpus you may need for your retirement goals.</p></article><article><h3>Education Planning</h3><p>Think through future education costs and savings requirements.</p></article><article><h3>Goal Planning</h3><p>Compare regular investing with your target amount and timeline.</p></article></div></div></main><footer>
+  <div class="container foot">
+    <div>
+      <strong>Quick Links</strong>
+      <a href="index.html#about">About</a>
+      <a href="index.html#products">Products</a>
+      <a href="calculators.html">All Calculators</a>
+      <a href="insurance.html">Insurance</a>
+      <a href="learn.html">Learn</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="contact.html">Contact</a>
+      <a href="others.html">Others</a>
+    </div>
+    <div>
+      <strong>Contact</strong>
+      <span>Neeraj Jain</span>
+      <span>D-347 Shastri Nagar, Meerut</span>
+      <span>Uttar Pradesh 250004, India</span>
+      <span>AMFI Registered Mutual Fund Distributor- ARN:8522 EUIN: E034983</span>
+      <span><a href="tel:+919412206425">+91 94122 06425</a></span>
+      <a href="mailto:neerajjainmeerut@outlook.com">neerajjainmeerut@outlook.com</a>
+      <a href="mailto:njain17jun@gmail.com">njain17@gmail.com</a>
+    </div>
+    <div class="grievance-officer">
+      <strong>Grievance Officer</strong>
+      <span>Neeraj Jain</span>
+      <span>Mobile: 9412206425</span>
+      <span>Email: <a href="mailto:neerajjainmeerut@outlook.com">neerajjainmeerut@outlook.com</a></span>
+    </div>
+  </div>
+  
+  <div class="container legal">
+    <div class="important-links">
+      <span class="important-title">Important Links</span>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="disclosure.html">Disclosure</a>
+      <a href="documents.html">SID/SAI/KIM</a>
+      <a href="code-of-conduct.html">Code of Conduct</a>
+      <a href="regulatory-links.html">SEBI Circulars</a>
+      <a href="regulatory-links.html#amfi">AMFI Risk Factors</a>
+      <a href="regulatory-disclosure.html">Regulatory Disclosure</a>
+    </div>
+    <div class="risk-note">Mutual fund investments are subject to market risks. Please read all scheme related documents carefully before investing.</div>
+  </div>
+</footer><script>function go(){let m=+document.getElementById('m').value,r=(+document.getElementById('r').value)/1200,n=(+document.getElementById('y').value)*12,v=r?m*((Math.pow(1+r,n)-1)/r)*(1+r):m*n;document.getElementById('o').textContent='₹'+(v/100000).toLocaleString('en-IN',{maximumFractionDigits:2})+' Lakh'}</script></body></html>
