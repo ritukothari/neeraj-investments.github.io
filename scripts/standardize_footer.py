@@ -40,7 +40,7 @@ FOOTER = '''<footer>
       <span class="important-title">Important Links</span>
       <a href="disclaimer.html">Disclaimer</a>
       <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="disclosure.html">Disclosure</a>
+      <a href="disclosure.html">Disclosure</a>\n      <a href="brokerage-disclosure.html">Brokerage Disclosure</a>
       <a href="documents.html">SID/SAI/KIM</a>
       <a href="code-of-conduct.html">Code of Conduct</a>
       <a href="regulatory-links.html">SEBI Circulars</a>
